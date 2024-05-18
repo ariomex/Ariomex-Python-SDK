@@ -2,7 +2,7 @@
 
 This README file documents how to use the Ariomex API SDK to interact with various API endpoints. The Ariomex SDK provides methods to interact with general, account, wallet, bank, history, and order API endpoints.
 
-You can find the API documentation at [https:#apidoc.ariomex.com](https:#apidoc.ariomex.com).
+You can find the API documentation at [https://apidoc.ariomex.com](https://apidoc.ariomex.com).
 
 ## Getting Started
 

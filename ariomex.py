@@ -185,7 +185,7 @@ class Wallet:
         query = {"amount": amount, "iban_uuid": iban_uuid}
         return self.parent.sign_and_send(url, query, method, is_private_endpoint)
 
-    def withdraw_crypto(self, symbol, network, amount, address_uuid, memo=""):
+    def withdraw_crypto(self, symbol, network, amount, address, memo=""):
         url = "/v1/private/wallet/withdraw_crypto"
         is_private_endpoint = True
         method = "POST"
@@ -193,7 +193,7 @@ class Wallet:
             "symbol": symbol,
             "network": network,
             "amount": amount,
-            "address_uuid": address_uuid,
+            "address": address,
             "memo": memo,
         }
         return self.parent.sign_and_send(url, query, method, is_private_endpoint)

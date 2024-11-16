@@ -9,7 +9,7 @@ class Ariomex:
     def __init__(self, api_key="", api_secret=""):
         self.api_key = api_key
         self.api_secret = api_secret
-        self.api_url = "https://api.ariomex.com"
+        self.api_url = "https://api.ariomex.ir"
         self.general = General(self)
         self.account = Account(self)
         self.wallet = Wallet(self)
